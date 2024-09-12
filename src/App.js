@@ -1,4 +1,5 @@
-import React from 'react';
+import React, { useEffect } from 'react';
+import AOS from 'aos';
 
 import { Route, BrowserRouter as Router, Routes, } from 'react-router-dom';
 import Home from './Home';
@@ -12,6 +13,13 @@ import Checkout from './Checkout';
 import Cart from './Cart';
 
 const App = () => {
+
+  useEffect(()=>{
+    AOS.init({
+      duration: 2000,
+      once: true,
+    },[]);
+  })
   return (
     <>
     

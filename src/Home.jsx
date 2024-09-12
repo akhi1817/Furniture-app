@@ -7,32 +7,33 @@ const Home = () => {
   <div className="row p-5 bg-warning">
     <div className="col-md-12 d-flex flex-column flex-md-row">
       <div className="col-md-6 col-12 pt-5">
-        <h1 className="text-white text-center text-md-start">Modern Interior Design<br />Studio</h1>
-        <p className="text-light text-center text-md-start">
+        <h1 data-aos="fade-down" className="text-white text-center text-md-start">Modern Interior Design<br />Studio</h1>
+        <p data-aos="fade-up" className="text-light text-center text-md-start">
           Welcome to One8 furnicommune, where comfort meets style.<br />
           Discover our curated collection of timeless furniture designed<br />
           to elevate your living space with elegance and functionality.
         </p>
-        <div className="text-center text-md-start">
+        <div data-aos="fade-up" className="text-center text-md-start">
           <button className="rounded-pill btn btn-success px-4 py-2 my-3 mx-3">Shop Now</button>
           <button className="rounded-pill btn btn-outline-success px-4 py-2 my-3 mx-3">Explore</button>
         </div>
       </div>
-      <div className="col-md-6 col-12 d-flex justify-content-center pt-5">
+      <div data-aos="fade-right" className="col-md-6 col-12 d-flex justify-content-center pt-5">
         <img src="images/couch.png" alt="sofa hero" className="img-fluid" />
       </div>
     </div>
   </div>
+  {/* shop */}
   <div className='col-md-12 p-5'>
     <div className='row mt-5'>
       <div className='col-md-12 d-flex'>
-        <div className='col-md-3 p-3'>
+        <div data-aos="fade-right" className='col-md-3 p-3'>
           <h2>Crafted with excellent material.</h2>
           <p>Welcome to our exquisite range of furniture, where style meets functionality. Our collection features a diverse array of high-quality pieces designed to enhance any living space.
              Whether you're looking for modern, classic, or contemporary designs, our selection has something to suit every taste and need.</p>
           <button className='btn btn-dark  rounded-pill px-5 py-2 mx-3'>Explore</button>
         </div>
-        <div className='col-md-3 p-3'>
+        <div data-aos="zoom-in-up" className='col-md-3 p-3'>
           <div className='card'>
             <div className='card-body text-center'>
               <img src='images/product-1.png' className='img-fluid' style={{width:'300px',height:'300px'}}/>
@@ -46,7 +47,7 @@ const Home = () => {
             </div>
           </div>
         </div>
-        <div className='col-md-3 p-3'>
+        <div data-aos="zoom-in-up" className='col-md-3 p-3'>
           <div className='card'>
             <div className='card-body text-center'>
               <img src='images/product-2.png' className='img-fluid' style={{width:'300px',height:'300px'}}/>
@@ -60,7 +61,7 @@ const Home = () => {
             </div>
           </div>
         </div>
-        <div className='col-md-3 p-3'>
+        <div data-aos="zoom-in-up" className='col-md-3 p-3'>
           <div className='card'>
             <div className='card-body text-center'>
               <img src='images/product-3.png' className='img-fluid' style={{width:'300px',height:'300px'}}/>
@@ -77,21 +78,58 @@ const Home = () => {
       </div>
     </div>
   </div>
+  {/* why choose us */}
   <div className='col-md-12 p-5'>
     <div className='row'>
-      <div className='col-md-12'>
-        <div className='col-md-6'>
+      <div className='col-md-12 d-flex'>
+        <div data-aos="zoom-in-down" className='col-md-6'>
             <h1>Why Choose Us</h1>
             <p className='text-secondary'>Choose us for top-quality furniture that combines durability with style at affordable prices. 
               Our diverse selection caters to every taste, from modern to classic, and our customization options ensure your 
               pieces reflect your unique taste. Enjoy a seamless shopping experience with excellent customer service and 
               reliable delivery,making us your go-to choice for exceptional furniture and outstanding service.</p>
-            <div className='col-md-3'>
-            <i class="bi bi-truck fs-1"></i>
-            
-            </div>
-        </div>
+              <div className='col-md-12 d-flex'>
+                  <div data-aos="fade-right" className='col-md-6'>
+                    <i class="bi bi-truck fs-1"></i>
+                    <p className='fw-bold'>Fast and Free Shipping</p>
+                    <p>"Enjoy fast and reliable shipping on all our furniture items.
+                    We prioritize delivering your products safely and on time.
+                    Best of all, shipping is absolutely free!"</p>
+                  </div>
+                  <div data-aos="fade-left" className='col-md-6'>
+                    <i class="bi bi-bag-check-fill fs-1"></i>
+                    <p className='fw-bold'>Easy to shop</p>
+                    <p>Shopping for furniture has never been easier!
+                      Enjoy fast, reliable, and free shipping on all orders.
+                      We make it simple and convenient, right to your door.</p>
+                  </div>
+              </div>
+              <div className='col-md-12 d-flex'>
+                  <div data-aos="fade-right" className='col-md-6'>
+                    <i class="bi bi-stopwatch-fill fs-1 "></i>
+                    <p className='fw-bold'>24/7 Support</p>
+                    <p>We're here for you 24/7, ready to assist with any questions.
+                    Get reliable support anytime, day or night!</p>
+                  </div>
+                  <div data-aos="fade-left" className='col-md-6'>
+                  <i class="bi bi-arrow-left-right fs-1"></i>
+                    <p className='fw-bold'>Hassle-free Returns</p>
+                    <p>Enjoy peace of mind with our hassle-free returns.
+                      Returning items is quick, easy, and stress-free.
+                      Your satisfaction is always our top priority.</p>
+                  </div>
+              </div>
+          </div>
+          <div data-aos="flip-right" className='col-md-6 p-5 ms-5'>
+            <img src='images/why-choose-us-img.jpg' className='img-fluid rounded' style={{width:'450px',height:'500px'}}/>
+          </div>
       </div>
+    </div>
+  </div>
+  {/* interior design */}
+  <div className='col-md-12'>
+    <div className='row'>
+      
     </div>
   </div>
 </div>    

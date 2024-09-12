@@ -8,6 +8,9 @@ import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
 import '../node_modules/bootstrap/dist/js/bootstrap.min.js';
 // bootstrap icons
 import 'bootstrap-icons/font/bootstrap-icons.css';
+// aos animation Integrate
+import 'aos/dist/aos.css';
+
 
 
 
