@@ -11,6 +11,7 @@ import Blog from './Blog';
 import Contact from './Contact';
 import Checkout from './Checkout';
 import Cart from './Cart';
+import Footer from './Footer';
 
 const App = () => {
 
@@ -36,6 +37,7 @@ const App = () => {
       <Route path='/cart' element={<Cart/>}/>
       
     </Routes>
+    {/* <Footer/> */}
   </Router>
     </>
   )

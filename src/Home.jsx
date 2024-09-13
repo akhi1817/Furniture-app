@@ -24,7 +24,7 @@ const Home = () => {
     </div>
   </div>
   {/* shop */}
-  <div className='col-md-12 p-5'>
+  <div className='col-md-12 p-5 '>
     <div className='row mt-5'>
       <div className='col-md-12 d-flex'>
         <div data-aos="fade-right" className='col-md-3 p-3'>
@@ -36,7 +36,7 @@ const Home = () => {
         <div data-aos="zoom-in-up" className='col-md-3 p-3'>
           <div className='card'>
             <div className='card-body text-center'>
-              <img src='images/product-1.png' className='img-fluid' style={{width:'300px',height:'300px'}}/>
+              <img src='images/product-1.png' alt='products' className='img-fluid' style={{width:'300px',height:'300px'}}/>
               <h5>Nordic Chair</h5>
               <h2>$50.00</h2>
             </div>
@@ -50,7 +50,7 @@ const Home = () => {
         <div data-aos="zoom-in-up" className='col-md-3 p-3'>
           <div className='card'>
             <div className='card-body text-center'>
-              <img src='images/product-2.png' className='img-fluid' style={{width:'300px',height:'300px'}}/>
+              <img src='images/product-2.png' alt='products' className='img-fluid' style={{width:'300px',height:'300px'}}/>
               <h5>Kruzo Aero Chair</h5>
               <h2>$78.00</h2>
             </div>
@@ -64,7 +64,7 @@ const Home = () => {
         <div data-aos="zoom-in-up" className='col-md-3 p-3'>
           <div className='card'>
             <div className='card-body text-center'>
-              <img src='images/product-3.png' className='img-fluid' style={{width:'300px',height:'300px'}}/>
+              <img src='images/product-3.png' alt='products' className='img-fluid' style={{width:'300px',height:'300px'}}/>
               <h5>Ergonomic Chair</h5>
               <h2>$43.00</h2>
             </div>
@@ -121,17 +121,131 @@ const Home = () => {
               </div>
           </div>
           <div data-aos="flip-right" className='col-md-6 p-5 ms-5'>
-            <img src='images/why-choose-us-img.jpg' className='img-fluid rounded' style={{width:'450px',height:'500px'}}/>
+            <img src='images/why-choose-us-img.jpg' alt='interior design' className='img-fluid rounded' style={{width:'450px',height:'500px'}}/>
           </div>
       </div>
     </div>
   </div>
   {/* interior design */}
   <div className='col-md-12'>
-    <div className='row'>
+    <div className='row '>
+      <div className='col-md-12 d-flex p-3'>
+      <div className='col-md-7 ms-5'>
+        <img data-aos='fade-right' src='images/img-grid-1.jpg' alt='interior design' className='img-fluid rounded' style={{ width:'400px',height:'500px',position:'relative'}}/>
+        <img data-aos='fade-down' src='images/img-grid-2.jpg'  alt='interior design' className='img-fluid rounded' style={{ width:'220px',height:'200px',position:'relative',bottom:'150px',left:'10px'}}/>
+        <img data-aos='fade-left' src='images/img-grid-3.jpg'  alt='interior design' className='img-fluid rounded' style={{ width:'360px',height:'400px',position:'relative',bottom:'280px',left:'270px'}}/>
+      </div>
+      <div data-aos='flip-left' className='col-md-4 me-5'>
+        <h2>We Help You To Make Modern Interior Design</h2>
+        <p className='text-secondary'>At our core, we specialize in transforming spaces into modern, stylish interiors that reflect your personal taste and lifestyle.
+          Our team of experienced designers combines creativity with functionality, ensuring each design not only looks stunning but also serves practical needs.
+          From sleek, minimalist furniture to contemporary lighting, we bring together the latest trends to craft unique, inviting spaces. Whether you're looking to renovate your home or office,
+          we work closely with you to bring your vision to life.  Trust us to elevate your interior with modern elegance and comfort.</p>
+        <button className='btn btn-dark   rounded-pill px-5 py-2 mx-3 my-4'>Explore</button>
+      </div>
+      </div>
+     
       
     </div>
   </div>
+  {/* Testimonials */}
+  <div className='col-md-12 mb-5'>
+    <div className='row'>
+      <h1 data-aos='fade-up' className='text-dark text-center'>Testimonials</h1>
+    
+      <div  data-aos='fade-up'  id="testimonialCarousel" className="carousel slide" data-bs-ride="carousel">
+          <div className="carousel-inner">
+            <div className="carousel-item active">
+              <div  className="col-md-12 px-5">
+                <div  data-aos='flip-right'  className="card px-5">
+                  <div className="card-body text-center px-5">
+                    <p className="text-secondary px-5">"I couldn't be happier with my experience at FurnitureApp! The quality of the furniture is top-notch, and the sleek, modern designs perfectly complement my home decor. The team was incredibly helpful in guiding me through the process, making it a breeze to find the right pieces. Highly recommend!"</p>
+                    <img src="images/person-1.jpg" alt='testimonials' className="img-fluid rounded rounded-circle" style={{ width: '100px', height: '100px' }} />
+                    <h6>Maria Jones</h6>
+                    <p className="text-secondary">CEO, ABC.Ltd</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="carousel-item">
+              <div className="col-md-12 px-5">
+                <div  data-aos='flip-right'  className="card px-5">
+                  <div className="card-body text-center px-5">
+                    <p className="text-secondary px-5">"What I love most about FurnitureApp is the attention to detail and the craftsmanship of their products. The furniture is not only stylish but also durable. I was impressed with the seamless ordering process and how easy it was to customize pieces to fit my space. An excellent experience all around!"</p>
+                    <img src="images/person-2.jpg" alt='testimonials' className="img-fluid rounded rounded-circle" style={{ width: '100px', height: '100px' }} />
+                    <h6>Peter England</h6>
+                    <p className="text-secondary">Founder, LMN.Ltd</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="carousel-item">
+              <div className="col-md-12 px-5">
+                <div  data-aos='flip-right'  className="card px-5">
+                  <div className="card-body text-center px-5">
+                    <p className="text-secondary px-5">"FurnitureApp truly exceeded my expectations! The variety of furniture styles they offer is amazing, and I was able to find exactly what I needed to complete my living room. The delivery was quick, and the customer service was exceptional. I'll definitely be shopping here again!"</p>
+                    <img src="images/person-3.jpeg" alt='testimonials' className="img-fluid rounded rounded-circle" style={{ width: '100px', height: '100px' }} />
+                    <h6>John Marshall</h6>
+                    <p className="text-secondary">CFO, XYZ.Ltd</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <button className="carousel-control-prev" type="button" data-bs-target="#testimonialCarousel" data-bs-slide="prev">
+            <span className="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span className="visually-hidden">Previous</span>
+          </button>
+          <button className="carousel-control-next " type="button" data-bs-target="#testimonialCarousel" data-bs-slide="next">
+            <span className="carousel-control-next-icon" aria-hidden="true"></span>
+            <span className="visually-hidden">Next</span>
+          </button>
+      </div>
+
+    </div>
+  </div>
+  {/* Blog */}
+  <div className='col-md-12'>
+    <div className='row '>
+      <h1 className='text-dark  mt-5'>Recent Blogs</h1>
+      <div className='col-md-12 d-flex p-5'>
+        <div className='col-md-4 mx-2 p-2'>
+          <div  data-aos='fade-left'  className='card'>
+            <div className='card-body text-center '>
+              <img src='images/post-1.jpg' alt='blog post' className='img-fluid rounded ' style={{width:'300px', height:'300px'}}/>
+            </div>
+            <div className='card-footer'>
+              <h5>First Time Home Owner Ideas</h5>
+              <p className='text-secondary'>by <strong className='text-dark'>Kristin Watson</strong> on <strong className='text-dark'>Dec 19, 2021</strong></p>
+            </div>
+          </div>
+        </div>
+        <div className='col-md-4 mx-2 p-2'>
+          <div  data-aos='zoom-in'  className='card'>
+            <div className='card-body text-center '>
+              <img src='images/post-2.jpg' alt='blog post' className='img-fluid rounded ' style={{width:'300px', height:'300px'}}/>
+            </div>
+            <div className='card-footer'>
+              <h5>How To Keep Your Furniture Clean</h5>
+              <p className='text-secondary'>by <strong className='text-dark'>Robert Fox</strong> on <strong className='text-dark'>Dec 15, 2021</strong></p>
+            </div>
+          </div>
+        </div>
+        <div className='col-md-4 mx-2 p-2'>
+          <div  data-aos='fade-right'  className='card'>
+            <div className='card-body text-center '>
+              <img src='images/post-3.jpg' alt='blog post' className='img-fluid rounded ' style={{width:'300px', height:'300px'}}/>
+            </div>
+            <div className='card-footer'>
+              <h5>Small Space Furniture Ideas</h5>
+              <p className='text-secondary'>by <strong className='text-dark'>Kraigg Ervine</strong> on <strong className='text-dark'>Dec 12, 2021</strong></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
 </div>    
     </>
   )
