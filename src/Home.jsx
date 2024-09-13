@@ -24,7 +24,7 @@ const Home = () => {
     </div>
   </div>
   {/* shop */}
-  <div className='col-md-12 p-5 '>
+  <div className='col-md-12 p-5 bg-light '>
     <div className='row mt-5'>
       <div className='col-md-12 d-flex'>
         <div data-aos="fade-right" className='col-md-3 p-3'>
@@ -79,7 +79,7 @@ const Home = () => {
     </div>
   </div>
   {/* why choose us */}
-  <div className='col-md-12 p-5'>
+  <div className='col-md-12 p-5 bg-light'>
     <div className='row'>
       <div className='col-md-12 d-flex'>
         <div data-aos="zoom-in-down" className='col-md-6'>
@@ -127,7 +127,7 @@ const Home = () => {
     </div>
   </div>
   {/* interior design */}
-  <div className='col-md-12'>
+  <div className='col-md-12 bg-light'>
     <div className='row '>
       <div className='col-md-12 d-flex p-3'>
       <div className='col-md-7 ms-5'>
@@ -149,7 +149,7 @@ const Home = () => {
     </div>
   </div>
   {/* Testimonials */}
-  <div className='col-md-12 mb-5'>
+  <div className='col-md-12 mb-5 bg-light'>
     <div className='row'>
       <h1 data-aos='fade-up' className='text-dark text-center'>Testimonials</h1>
     
@@ -205,7 +205,7 @@ const Home = () => {
     </div>
   </div>
   {/* Blog */}
-  <div className='col-md-12'>
+  <div className='col-md-12 bg-light'>
     <div className='row '>
       <h1 className='text-dark  mt-5'>Recent Blogs</h1>
       <div className='col-md-12 d-flex p-5'>
