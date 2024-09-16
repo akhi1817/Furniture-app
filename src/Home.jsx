@@ -24,9 +24,9 @@ const Home = () => {
     </div>
   </div>
   {/* shop */}
-  <div className='col-md-12 p-5 bg-light '>
+  <div className='col-md-12 p-5 bg-light'>
     <div className='row mt-5'>
-      <div className='col-md-12 d-flex'>
+      <div className='col-md-12 d-flex flex-column flex-md-row'>
         <div data-aos="fade-right" className='col-md-3 p-3'>
           <h2>Crafted with excellent material.</h2>
           <p>Welcome to our exquisite range of furniture, where style meets functionality. Our collection features a diverse array of high-quality pieces designed to enhance any living space.
@@ -41,8 +41,8 @@ const Home = () => {
               <h2>$50.00</h2>
             </div>
             <div className='card-footer text-center'>
-              <button className='btn btn-success rounded px-2 mx-2'>Add to Cart</button>
-              <button className='btn btn-primary rounded px-2 mx-2'>Buy Now</button>
+              <button className='btn btn-success rounded px-2 py-2 mx-2 my-2'>Add to Cart</button>
+              <button className='btn btn-primary rounded px-2 py-2 mx-2 my-2'>Buy Now</button>
               
             </div>
           </div>
@@ -55,8 +55,8 @@ const Home = () => {
               <h2>$78.00</h2>
             </div>
             <div className='card-footer text-center'>
-              <button className='btn btn-success rounded px-2 mx-2'>Add to Cart</button>
-              <button className='btn btn-primary rounded px-2 mx-2'>Buy Now</button>
+              <button className='btn btn-success rounded px-2 py-2 my-2 mx-2'>Add to Cart</button>
+              <button className='btn btn-primary rounded px-2 py-2 my-2 mx-2'>Buy Now</button>
               
             </div>
           </div>
@@ -69,8 +69,8 @@ const Home = () => {
               <h2>$43.00</h2>
             </div>
             <div className='card-footer text-center'>
-              <button className='btn btn-success rounded px-2 mx-2'>Add to Cart</button>
-              <button className='btn btn-primary rounded px-2 mx-2'>Buy Now</button>
+              <button className='btn btn-success rounded px-2 py-2 my-2 mx-2'>Add to Cart</button>
+              <button className='btn btn-primary rounded px-2 py-2 my-2 mx-2'>Buy Now</button>
               
             </div>
           </div>
@@ -81,14 +81,14 @@ const Home = () => {
   {/* why choose us */}
   <div className='col-md-12 p-5 bg-light'>
     <div className='row'>
-      <div className='col-md-12 d-flex'>
+      <div className='col-md-12 d-flex flex-column flex-md-row'>
         <div data-aos="zoom-in-down" className='col-md-6'>
             <h1>Why Choose Us</h1>
             <p className='text-secondary'>Choose us for top-quality furniture that combines durability with style at affordable prices. 
               Our diverse selection caters to every taste, from modern to classic, and our customization options ensure your 
               pieces reflect your unique taste. Enjoy a seamless shopping experience with excellent customer service and 
               reliable delivery,making us your go-to choice for exceptional furniture and outstanding service.</p>
-              <div className='col-md-12 d-flex'>
+              <div className='col-md-12 d-flex flex-column flex-md-row'>
                   <div data-aos="fade-right" className='col-md-6'>
                     <i class="bi bi-truck fs-1"></i>
                     <p className='fw-bold'>Fast and Free Shipping</p>
@@ -104,7 +104,7 @@ const Home = () => {
                       We make it simple and convenient, right to your door.</p>
                   </div>
               </div>
-              <div className='col-md-12 d-flex'>
+              <div className='col-md-12 d-flex flex-column flex-md-row'>
                   <div data-aos="fade-right" className='col-md-6'>
                     <i class="bi bi-stopwatch-fill fs-1 "></i>
                     <p className='fw-bold'>24/7 Support</p>
@@ -120,7 +120,7 @@ const Home = () => {
                   </div>
               </div>
           </div>
-          <div data-aos="flip-right" className='col-md-6 p-5 ms-5'>
+          <div data-aos="flip-right" className='col-md-6 p-5 ms-5 justify-content-center '>
             <img src='images/why-choose-us-img.jpg' alt='interior design' className='img-fluid rounded' style={{width:'450px',height:'500px'}}/>
           </div>
       </div>
@@ -129,7 +129,7 @@ const Home = () => {
   {/* interior design */}
   <div className='col-md-12 bg-light'>
     <div className='row '>
-      <div className='col-md-12 d-flex p-3'>
+      <div className='col-md-12 d-flex p-3 flex-column flex-sm-row'>
       <div className='col-md-7 ms-5'>
         <img data-aos='fade-right' src='images/img-grid-1.jpg' alt='interior design' className='img-fluid rounded' style={{ width:'400px',height:'500px',position:'relative'}}/>
         <img data-aos='fade-down' src='images/img-grid-2.jpg'  alt='interior design' className='img-fluid rounded' style={{ width:'220px',height:'200px',position:'relative',bottom:'150px',left:'10px'}}/>
@@ -208,7 +208,7 @@ const Home = () => {
   <div className='col-md-12 bg-light'>
     <div className='row '>
       <h1 className='text-dark  mt-5'>Recent Blogs</h1>
-      <div className='col-md-12 d-flex p-5'>
+      <div className='col-md-12 d-flex p-5 flex-column flex-md-row'>
         <div className='col-md-4 mx-2 p-2'>
           <div  data-aos='fade-left'  className='card'>
             <div className='card-body text-center '>
