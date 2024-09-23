@@ -44,6 +44,14 @@ const Footer = () => {
         </div>
       </div>
     </div>
+    <div className='row p-5'>
+      <div className='col-md-6'>
+        <p>Copyright <i class="bi bi-c-circle"></i>2024. All Rights Reserved.- Designed with Love by Akhi.</p>
+      </div>
+      <div className='col-md-6'>
+        <Link className='text-dark d-flex justify-content-end text-decoration-none'><p className='me-3'>Terms and Conditions.</p><p className=''>Privacy Policy</p></Link>
+      </div>
+    </div>
    </div>
    </>
   )
