@@ -22,7 +22,7 @@ const Contact = () => {
       </div>
       <div className='row  justify-content-center align-items-center'>
         <div className='col-md-12 p-5'>
-          <form>
+          <form action='mailto:akhilkumbhar1718@gmail.com' method='post' encType='text/plain'>
             <div className='col-md-12 mt-4 d-flex  rounded text-center'>
             <div className='col-md-6 me-1'>
               <input type='text' className='form-control ' placeholder='First Name'/>

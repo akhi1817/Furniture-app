@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react';
-import AOS from 'aos';
+import AOS from 'aos';// 2nd step : import aos
 
 import { Route, BrowserRouter as Router, Routes, } from 'react-router-dom';
 import Home from './Home';
@@ -14,7 +14,7 @@ import Cart from './Cart';
 import Footer from './Footer';
 
 const App = () => {
-
+//3 initialize aos
   useEffect(()=>{
     AOS.init({
       duration: 2000,
